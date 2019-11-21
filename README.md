@@ -1,5 +1,7 @@
 # kivy-security
-A security framework for Python Kivy
+A security framework for Python Kivy. 
+
+The package name is `kivy-security` but the module name is `kivysec` for short.
 
 ## Features
 The project aims to have all these features:
@@ -19,11 +21,11 @@ release to know what is done and how.
 See also the (releases)[https://github.com/ognibit/kivy-security/releases] on
 GitHub.
 ### Release 0.1 
-Work in progress.
+
 * Simple configuration using python code
 * Extremely simple (and not secure) AuthenticationService for the simplest
   login with user and password. 
-* LoginWidget to setup the skeleton of the login page
-* SecureScreen to setup an application page in secure mode
-* Logut method
+* Customizable LoginScreen.
+* AuthorizedScreen to handle user data.
+* Logut method.
 

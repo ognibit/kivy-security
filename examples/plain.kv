@@ -1,0 +1,23 @@
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            text: root.username
+            on_text: root.username = self.text
+        TextInput:
+            text: root.password
+            on_text: root.password = self.text
+        Button:
+            text: 'LOGIN'
+            on_press: root.login(to_screen='home')(root)
+
+<HomePageScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: user_label
+            text: 'Welcome'
+        Button:
+            text: 'LOGOUT'
+            on_press: root.manager.current = 'logout'
+
