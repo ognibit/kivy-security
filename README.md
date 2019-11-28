@@ -18,7 +18,7 @@ All the features are not already implemented. Check the changelog of each
 release to know what is done and how.
 
 ## Changelog
-See also the (releases)[https://github.com/ognibit/kivy-security/releases] on
+See also the [releases](https://github.com/ognibit/kivy-security/releases) on
 GitHub.
 ### Release 0.1 
 
@@ -27,5 +27,5 @@ GitHub.
   login with user and password. 
 * Customizable LoginScreen.
 * AuthorizedScreen to handle user data.
-* Logut method.
+* Logout method.
 
